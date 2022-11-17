@@ -9,3 +9,28 @@ body {
     margin: 0;
     padding: 62px 165px 200px 165px;
 }
+
+.header__wrapper {
+    margin-top: 127px;
+    width: 80%;
+}
+
+.header__img {
+    position: absolute;
+    right: 0;
+    top: -2.5rem;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+    color: #191826;
+    letter-spacing: -1px;
+}
+
+.header__subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+}
