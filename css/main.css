@@ -35,12 +35,75 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 34px;
+    margin: 0;
 }
 
 /* Header code end */
 
 /* Main code start */
 
+.main__bg {
+    height: 600px;
+    background-color: #191826;
+    margin-top: 321px;
+    margin-bottom: 202px;
+    border-radius: 1rem;
+}
 
+.main__img {
+    position: absolute;
+    width: 312px;
+    height: 642px;
+    left: 267px;
+    top: 647px;
+}
+
+.main__wrapper {
+    background-color: #fa7453;
+    position: absolute;
+    width: 446px;
+    height: 625px;
+    border-radius: 12px;
+    padding: 58px 59px 48px 54px;
+    right: 260px;
+    top: 950px;
+}
+
+.main__wrapper-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FCFAF9;
+    margin-bottom: 22px;
+}
+
+.main__wrapper-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #FCFAF9;
+    margin-bottom: 39px;
+}
+
+.main__wrapper-price {
+    color: #FCFAF9;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    margin-bottom: 46px;
+}
+
+.main__wrapper-price span {
+    font-weight: 700;
+    font-size: 65px;
+
+}
+
+.main__ios-dnl {
+    background-color: #191826;
+    color: #FCFAF9;
+    padding: 1rem 95px;
+    border-radius: 12px;
+    width: 100%;
+}
 
 /* Main code end */
