@@ -73,6 +73,7 @@ body {
     font-weight: 700;
     font-size: 40px;
     color: #FCFAF9;
+    margin: 0;
     margin-bottom: 22px;
 }
 
@@ -101,9 +102,25 @@ body {
 .main__ios-dnl {
     background-color: #191826;
     color: #FCFAF9;
-    padding: 1rem 95px;
+    padding: 1rem 110px;
     border-radius: 12px;
-    width: 100%;
+    text-decoration: none;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+}
+
+.main__andr-dnl {
+    background-color: #FCFAF9;
+    color: #191826;
+    padding: 1rem 92px;
+    border-radius: 12px;
+    text-decoration: none;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
 }
 
 /* Main code end */
