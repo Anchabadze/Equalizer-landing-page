@@ -7,7 +7,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 62px 165px 200px 165px;
+    padding: 62px 165px 91px 165px;
 }
 
 /* Header code start */
@@ -124,3 +124,18 @@ body {
 }
 
 /* Main code end */
+
+/* Footer code start */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer span {
+    font-weight: bold;
+}
+
+
+/* Footer code end */
