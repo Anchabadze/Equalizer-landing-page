@@ -137,5 +137,11 @@ footer span {
     font-weight: bold;
 }
 
+.footer__social-logos {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /* Footer code end */
