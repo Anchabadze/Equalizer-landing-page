@@ -150,10 +150,20 @@ footer span {
     font-weight: bold;
 }
 
+ul {
+    list-style: none;
+}
+
 .footer__social-logos {
-    width: 100px;
     display: flex;
-    justify-content: space-between;
+    gap: 1.25rem;
+    align-items: center;
+}
+
+.footer__fb-logo:hover,
+.footer__fb-logo:focus,
+.footer__fb-logo:active {
+    background-color: #fa7453;
 }
 
 
