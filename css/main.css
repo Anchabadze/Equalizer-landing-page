@@ -111,6 +111,12 @@ body {
     display: block;
 }
 
+.main__ios-dnl:hover,
+.main__ios-dnl:focus,
+.main__ios-dnl:active {
+    background-color: #66E2DC;
+}
+
 .main__andr-dnl {
     background-color: #FCFAF9;
     color: #191826;
@@ -122,6 +128,13 @@ body {
     font-size: 18px;
     display: block;
 }
+
+.main__andr-dnl:hover,
+.main__andr-dnl:focus,
+.main__andr-dnl:active {
+    background-color: #FFB964;
+}
+
 
 /* Main code end */
 
