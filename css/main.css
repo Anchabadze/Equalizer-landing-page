@@ -146,8 +146,16 @@ footer {
     justify-content: space-between;
 }
 
-footer span {
+.footer__email {
     font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.footer__email:hover,
+.footer__email:focus,
+.footer__email:active {
+    color: #fa7453;
 }
 
 ul {
