@@ -160,11 +160,19 @@ ul {
     align-items: center;
 }
 
-.footer__fb-logo:hover,
-.footer__fb-logo:focus,
-.footer__fb-logo:active {
-    background-color: #fa7453;
+.footer__logo-fb:hover,
+.footer__logo-fb:focus,
+.footer__logo-fb:active,
+.footer__logo-inst:hover,
+.footer__logo-inst:focus,
+.footer__logo-inst:active,
+.footer__logo-tw:hover,
+.footer__logo-tw:focus,
+.footer__logo-tw:active {
+    fill: #fa7453;
 }
+
+
 
 
 /* Footer code end */
