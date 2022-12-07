@@ -180,7 +180,15 @@ ul {
     fill: #fa7453;
 }
 
-
-
-
 /* Footer code end */
+
+/* Responsive for tablet start */
+
+@media (max-width: 1024px) {
+    
+    body {
+        padding: 62px 39px 85px 39px;
+    }
+}
+
+/* Responsive for tablet end */
