@@ -189,6 +189,34 @@ ul {
     body {
         padding: 62px 39px 85px 39px;
     }
+
+    .main__img {
+        width: 270px;
+        height: 556px;
+        left: 120px;
+        top: 750px;
+    }
+
+    .main__wrapper {
+        width: 399px;
+        /* height: 546px; */
+        right: 120px;
+        top: 1050px;
+        padding: 48px;
+    }
+
+    .main__wrapper-price {
+        color: #FCFAF9;
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: -0.2px;
+        margin-bottom: 46px;
+    }
+
+    .main__wrapper-title {
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
 }
 
 /* Responsive for tablet end */
