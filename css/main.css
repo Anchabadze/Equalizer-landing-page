@@ -102,13 +102,18 @@ body {
 .main__ios-dnl {
     background-color: #191826;
     color: #FCFAF9;
-    padding: 1rem 110px;
     border-radius: 12px;
     text-decoration: none;
     margin-bottom: 16px;
     font-weight: 700;
     font-size: 18px;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__ios-img {
+    margin-right: 0.7rem;
 }
 
 .main__ios-dnl:hover,
@@ -120,13 +125,18 @@ body {
 .main__andr-dnl {
     background-color: #FCFAF9;
     color: #191826;
-    padding: 1rem 92px;
     border-radius: 12px;
     text-decoration: none;
     margin-bottom: 16px;
     font-weight: 700;
     font-size: 18px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__andr-img {
+    margin-right: 0.7rem;
 }
 
 .main__andr-dnl:hover,
@@ -206,17 +216,32 @@ ul {
     }
 
     .main__wrapper-price {
-        color: #FCFAF9;
         font-weight: 400;
         font-size: 20px;
-        letter-spacing: -0.2px;
-        margin-bottom: 46px;
+        margin: 32px 0;
     }
 
     .main__wrapper-title {
         font-size: 32px;
         margin-bottom: 12px;
     }
+
+    .main__wrapper-subtitle {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 0;
+    }
+
+    .main__ios-dnl {
+        background-color: #191826;
+        color: #FCFAF9;
+        padding: 13px 80px 16px 105px;
+        border-radius: 12px;
+        text-decoration: none;
+        margin-bottom: 16px;
+        display: block;
+    }
+
 }
 
 /* Responsive for tablet end */
