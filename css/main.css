@@ -152,13 +152,14 @@ body {
 
 .footer__cointainer {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
 }
 
 .footer__wrapper {
     display: flex;
     justify-content: space-between;
+    width: 60%;
 }
 
 .footer__email {
