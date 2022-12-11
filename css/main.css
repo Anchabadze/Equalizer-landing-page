@@ -263,6 +263,13 @@ ul {
         margin-bottom: 16px;
     }
 
+    .footer__cointainer {
+        display: block;
+    }
+
+    .footer__wrapper {
+        width: 100%;
+    }
 
 
 }
