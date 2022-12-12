@@ -232,7 +232,6 @@ ul {
 
     .main__wrapper {
         width: 399px;
-        /* height: 546px; */
         right: 120px;
         top: 1050px;
         padding: 48px;
@@ -279,13 +278,24 @@ ul {
 
 @media (max-width: 414px) {
 
+    body {
+        padding: 0;
+    }
+
+    .header__logo {
+        margin-top: 40px;
+        margin-left: 24px;
+    }
+
     .header__img {
         display: none;
     }
 
     .header__wrapper {
         margin-top: 64px;
-        width: 100%;
+        width: 80%;
+        margin-left: 24px;
+        margin-right: 24px;
     }
 
     .header__title {
@@ -300,6 +310,25 @@ ul {
         line-height: 26px;
     }
 
+    .main__bg {
+        margin-top: 166px;
+        margin-bottom: 390px;
+    }   
+
+    .main__img {
+        width: 209px;
+        height: 430px;
+        left: 100px;
+        top: 500px;
+    }
+
+    .main__wrapper {
+        right: 0;
+        top: 1000px;
+        padding: 37px;
+        width: 100%;
+        height: auto;
+    }
 
 }
 
