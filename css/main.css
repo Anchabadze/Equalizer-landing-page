@@ -271,7 +271,17 @@ ul {
         width: 100%;
     }
 
-
 }
 
 /* Responsive for tablet end */
+
+/* Responsive for mobile start */
+
+@media (max-width: 414px) {
+
+
+
+
+}
+
+/* Responsive for mobile end */
