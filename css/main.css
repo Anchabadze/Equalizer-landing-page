@@ -330,6 +330,23 @@ ul {
         height: auto;
     }
 
+    .footer__home {
+        margin-left: 24px;
+    }
+
+    .footer__wrapper {
+        display: block;
+    }
+
+    .footer__text {
+        margin-left: 24px;
+        margin-bottom: 45px;
+    }
+
+    .footer__social-logos {
+        padding: 0;
+        margin-left: 24px;
+    }
 }
 
 /* Responsive for mobile end */
