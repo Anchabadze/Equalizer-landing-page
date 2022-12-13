@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 62px 165px 91px 165px;
+    background-image: url(../bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: top -20rem left -30rem;
 }
 
 /* Header code start */
@@ -221,6 +225,9 @@ ul {
     
     body {
         padding: 62px 39px 85px 39px;
+        background-image: url(../img/bg-main-tablet.png);
+        background-size: 120%;
+        background-position: top -11rem left -14rem;
     }
 
     .main__img {
@@ -280,7 +287,11 @@ ul {
 
     body {
         padding: 0;
+        background-image: url(../img/bg-main-mobile.png);
+        background-size: 100%;
+        background-position: top -10rem left 7rem;
     }
+
 
     .header__logo {
         margin-top: 40px;
